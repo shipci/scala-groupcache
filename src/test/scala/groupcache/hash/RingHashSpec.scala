@@ -41,7 +41,7 @@ class RingHashSpec extends WordSpec with ShouldMatchers {
       val testCases = Map[String, String]() ++= baseTestCases
 
       ringHash.add("8")
-      testCases("27") = "8"
+      testCases("28") = "8"
 
       testCases.foreach {
         case (key, value) => {
